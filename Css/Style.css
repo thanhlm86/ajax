@@ -1,0 +1,63 @@
+
+/*RESET*/
+* { margin: 0;padding: 0; font-family: Arial, Verdana, sans-serif;font-size: 13px;}
+#wrapper{width: 1000px; margin: 30px auto}
+label {display: block;width: 60px;float: left; font-size: 15px; font-weight: bold; vertical-align: middle}
+.rows{padding: 5px}
+.rows input{width: 400px; height: 30px}
+input[name='submit']{height: 40px; width: 60px; font-weight: bold;margin-left: 64px;}
+#idVal{width: 40px}
+
+/*TABLES DATA*/
+table {display: table;border-collapse: separate;border-spacing: 2px; border-color: gray;font-family: sans-serif;font-size: 82%;}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table caption, table th, table td {
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    margin: 0.1em;
+    /*vertical-align: top;*/
+    height: 25px;
+    vertical-align: middle;
+}
+th {
+    font-weight: bold;
+    color: #000000;
+    background: #D3DCE3;
+}
+
+.odd {
+    background: #E5E5E5;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table tr.odd th, table tr.odd, table tr.even th, table tr.even {
+    text-align: left;
+}
+table tr.odd th, .odd {
+    background: #E5E5E5;
+}
+table tr.odd th, table tr.odd, table tr.even th, table tr.even {
+    text-align: left;
+}
+table tr.even th, .even {
+    background: #D5D5D5;
+}
+table tr td {
+    text-align: left;
+}
+.odd:hover, .even:hover, .hover {
+    background: #CCFFCC;
+    color: #000000;
+}
+
